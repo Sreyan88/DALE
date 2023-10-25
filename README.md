@@ -1,6 +1,6 @@
 # DALE
 Code for EMNLP 2023 paper: [DALE: Generative Data Augmentation for Low-Resource Legal NLP](https://arxiv.org/pdf/2310.15799.pdf).<br>
-DALE pretrained bart-large can be found [here](https://huggingface.co/ckevuru/DALE).
+DALE pretrained bart-large can be found [here](https://huggingface.co/ckevuru/DALE). Pretraing data can be found [here](https://drive.google.com/file/d/19Qwc08T4lAIOlX7uvEk9L9KwIU9lWZmw/view?usp=sharing).<br>
 
 ### BibTeX entry and citation info
 If you find our paper/code/demo useful, please cite our paper:
