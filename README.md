@@ -11,8 +11,8 @@ DALE pretrained bart-large model can be found [here](https://huggingface.co/ckev
       ```
       pip install -r requirements.txt
       ```
-2. Run the required files
-      For pmi masking:
+2. Run the required files<br>
+      For PMI masking:
       ```
       cd pmi/
       sh pmi.sh <config_name> <dataset_path> <output_path> <n_gram_value> <pmi_cut_off>
