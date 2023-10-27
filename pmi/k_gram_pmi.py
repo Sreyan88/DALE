@@ -12,8 +12,6 @@ from nltk.util import ngrams
 import os
 import pickle
 
-f = open('ngram_check.txt','w')
-
 def compute_freq(corpus_tokens, n=2):
 
     ngram_freq_dist = FreqDist()

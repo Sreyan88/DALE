@@ -8,7 +8,6 @@ import os
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--dataset', type=str, required=True)
     parser.add_argument('-c', '--config', type=str, required=True)
     parser.add_argument('-f', '--file', type=str, required=True)
     parser.add_argument('-m', '--mode', type=str, required=True)
@@ -16,7 +15,6 @@ if __name__ == '__main__':
     parser.add_argument('-b', '--base_path', type=str, required=True)
     args = parser.parse_args()
 
-    dataset_name = args.dataset
     config = args.config
 
     dir_path = os.path.join(args.base_path, config)

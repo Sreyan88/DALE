@@ -5,8 +5,6 @@ from tqdm.auto import tqdm
 from datasets import load_from_disk, set_caching_enabled
 
 import os
-# import spacy
-# spacy.prefer_gpu()
 
 from nltk.tokenize import word_tokenize, sent_tokenize
 import pickle
@@ -48,13 +46,11 @@ def clean_pipeline(text):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--dataset', type=str, required=True)
     parser.add_argument('-c', '--config', type=str, required=True)
     parser.add_argument('-f', '--file', type=str, required=True)
     parser.add_argument('-b', '--base_path', type=str, required=True)
     args = parser.parse_args()
 
-    dataset_name = args.dataset
     config = args.config
 
     dir_path = os.path.join(args.base_path, config)
